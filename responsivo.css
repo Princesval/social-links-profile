@@ -1,0 +1,17 @@
+@media (max-width:375px) {
+    main {
+        max-width: 200px;
+    }
+    footer {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 325px) {
+    main {
+        max-width: 175px;
+    }
+    footer {
+        padding: 5px;
+    }
+}

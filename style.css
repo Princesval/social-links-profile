@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+main {
+    max-width: 400px;
+    margin: auto;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    margin-top: 200px;
+    padding: 50px;
+    border-radius: 20px;
+}
+img {
+    min-width: 120px;
+    max-width: 180px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2.1em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: hsl(75, 94%, 57%);
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+nav {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.menu {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    gap: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.3em;
+    background-color: hsl(0, 0%, 20%);
+}
+
+.menu:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    transition: 0.5s;
+}
+
+footer {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+footer > a {
+    text-decoration: underline;
+    color: hsl(75, 94%, 57%);
+}
